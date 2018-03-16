@@ -1,0 +1,12 @@
+﻿/*<!--*/(function() {var qss="&cb="+Math.floor(99999999999*Math.random());try{qss+="&ref="+encodeURIComponent(document.referrer)}catch(e$$12){}try{qss+="&sc_r="+encodeURIComponent(screen.width+"x"+screen.height)}catch(e$$13){}try{qss+="&sc_d="+encodeURIComponent(screen.colorDepth)}catch(e$$14){}
+var callDis=function(c,d){var a=function(){callDisInternal(c,d)};"complete"===document.readyState?setTimeout(a):window.addEventListener?window.addEventListener("load",a,!1):window.attachEvent("onload",a)},disCalled=!1,callDisInternal=function(c,d){if(!disCalled){disCalled=!0;var a="//"+d+"/dis/dis.aspx",b=document.createElement("iframe");b.width=b.height="0";b.style.display="none";b.src=(a+"?p="+c+qss).substring(0,2E3);(a=document.getElementById("criteoTagsContainer"))?(a.appendChild(b),"function"===
+typeof window.removeLater&&window.removeLater(b)):criteo_q.push({event:"appendTag",element:b})}};
+
+callDis(26270, 'dis.us.criteo.com');
+})();
+
+new Image().src = '//gum.criteo.com/pong?uid=50fdf409-a8bb-43a3-b6a8-6dd90680b91f&m=2&cs=1&source=onetag&rid=977c5208-a604-47ca-b58a-e08500dd1be8&lwid=81cf3cfa-10b0-4521-a111-e6d07e519560&tld=tacdn.com&rts=1521097981117';
+
+
+
+/*-->*/
